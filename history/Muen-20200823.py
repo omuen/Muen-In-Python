@@ -8,6 +8,8 @@ def jam(x,y,z):
         return x+y
     elif z==2:
         return x*y
+    else:
+        return "whatdoyoumean"
 
 
 
@@ -16,6 +18,10 @@ print(cat)
 
 cat=jam(1728,1728,2)
 print(cat)
+
+cat=jam(11,11,3)
+print(cat)
+
 print('  ')
 
 
